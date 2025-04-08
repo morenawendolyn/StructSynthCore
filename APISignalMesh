@@ -1,0 +1,23 @@
+
+---
+
+### **2. 32_APISignalMesh**  
+**Description:**  
+A batch scanner for monitoring uptime and response times across a mesh of API endpoints.
+
+#### **README.md**
+```markdown
+# APISignalMesh - Multi-Endpoint Monitoring Tool
+
+APISignalMesh lets you track the status of multiple APIs, measuring health, latency, and failures across services.
+
+## Features
+- Logs HTTP status + ms latency  
+- Visual status grid  
+- Optional JSON export  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_APISignalMesh.git
+cd 32_APISignalMesh
+python monitor.py
