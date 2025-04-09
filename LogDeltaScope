@@ -1,0 +1,23 @@
+
+---
+
+### **3. 32_LogDeltaScope**  
+**Description:**  
+Parses logs and identifies high-frequency messages, anomaly spikes, and sudden delta shifts.
+
+#### **README.md**
+```markdown
+# LogDeltaScope - Log Spike and Pattern Analyzer
+
+LogDeltaScope highlights burst clusters, delta jumps, and error density patterns in any system or app log.
+
+## Features
+- Burst and shift detection  
+- Keyword + timestamp filters  
+- Lightweight CLI interface  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_LogDeltaScope.git
+cd 32_LogDeltaScope
+python analyze.py logs/server.log
